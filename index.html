@@ -3,12 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Onboarding Project</title>
+  <title>Dig Some Holes!</title>
   <meta name="author" content="Alex DeMuth">
   <meta name="description" content="Sign-up">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css"/>
 </head>
 
 <body>
@@ -28,8 +28,11 @@
 	  </li>
 	  <li id"=email">
 	    <label>Email:</label>
-	    <input type="email" name="email" placeholder="xxxx@xxxx.com">
+	    <input type="email" name="email" placeholder="xxxx@xxxx.com" pattern="^.+@.+$" />
 	  </li>
+	  <li id="input-submit">
+        <input type="submit" name="submit" id="submit" value="Start Digging!" />
+      </li>
 	</ol>
   </class>
 
