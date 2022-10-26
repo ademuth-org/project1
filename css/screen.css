@@ -12,7 +12,7 @@ body {
 }
 
 p {
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
 }
 
@@ -36,4 +36,8 @@ input {
   align-items: center;
   justify-content: center;
   display: flex;
+}
+
+#submit {
+	padding: 10px;
 }
