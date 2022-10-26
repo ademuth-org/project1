@@ -22,3 +22,9 @@ p {
   padding: 20px;
   margin: 10px;
 }
+
+#registration {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
