@@ -16,7 +16,7 @@ p {
 
 label{
   width: 100%;
-  display: inline-block;
+  display: block;
   padding: 5px;
 }
 
