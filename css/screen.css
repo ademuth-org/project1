@@ -1,5 +1,4 @@
 body {
-  text-align: center;
   font-family: 'Verdana', sans-serif;
   background: rgb(121,83,9);
   background: linear-gradient(0deg, rgba(121,83,9,1) 56%, rgba(168,255,0,1) 100%);
@@ -7,15 +6,6 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-ol {
-  list-style: none
-}
-
-li {
-  padding: 10px;
-  margin: 5px;
 }
 
 p {
