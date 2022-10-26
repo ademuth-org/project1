@@ -20,6 +20,11 @@ label{
   padding: 5px;
 }
 
+input {
+	vertical-align: bottom;
+	position: relative;
+}
+
 #registration {
   height: 100%;
   width: 100%;
