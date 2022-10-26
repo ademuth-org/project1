@@ -16,27 +16,17 @@
     <h1>Chicago Hole-Digging Club</h1>
     <p>Have you ever felt like there just aren&#39;t enough holes? Well we&#39;re here to change that! Sign up to dig holes around the city every week!</p>
   </header>
-    <ol>
-	  <li id="input-firstname">
-        <label>First Name</label>
-        <input type="text" name="firstname" placeholder="John">
-	  </li>
-	  <li id="input-lastname">
-	    <label>Last Name</label>
-	    <input type="text" name="lastname" placeholder="Doe">
-	  </li>
-	  <li id="input-email">
-	    <label>Email</label>
-	    <input type="email" name="email" placeholder="xxxx@xxxx.com" pattern="^.+@.+$" >
-	  </li>
-	  <li id="input-shovel">
-        <label>Click here if you need a shovel provided for you</label>
-		<input type="checkbox" id="shovel" name="shovel" value="Shovel">
-      </li>
-	  <li id="input-submit">
-        <input type="submit" name="submit" id="submit" value="Start Digging!">
-      </li>
-	</ol>
-  <script src="js/script.js"></script>
+  
+  <form method="get" action="#null" autocomplete=”on”>
+    <label for="firstname">First Name</label>
+      <input type="text" name="firstname" id="firstname" placeholder="John">
+	<label for="lastname">Last Name</label>
+	  <input type="text" name="lastname" id="firstname" placeholder="Doe">
+	<label for="email">Email</label>
+	  <input type="email" name="email" id="email" placeholder="xxxx@xxxx.com" pattern="^.+@.+$" >
+    <label for="shovel">Click here if you need a shovel provided for you</label>
+		<input type="checkbox" name="shovel" id="shovel" value="Shovel">
+    <button type="submit">Start Digging!</button>
+  </form>
 </body>
 </html>
