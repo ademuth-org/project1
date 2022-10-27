@@ -1,9 +1,8 @@
-const firstname = document.getElementById('firstname')
-const lastname = document.getElementById('lastname')
-const email = document.getElementById('email')
-const errorElement = document.getElementById('error')
 
 function validateform(){  
+  var firstname = document.getElementById('firstname')
+  var lastname = document.getElementById('lastname')
+  var email = document.getElementById('email')
   if (firstname=="" || firstname==null){  
     alert("Please enter your first name");  
   }
