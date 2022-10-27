@@ -2,7 +2,7 @@
 
 body {
   text-align: center;
-  font-size: calc(12px + 1vw);
+  font-size: calc(12px + 1vw); /* Implementing modular scale for text */
   font-family: 'Nunito', 'Verdana', sans-serif;
   background: rgb(121,83,9);
   background: linear-gradient(0deg, rgba(121,83,9,1) 56%, rgba(168,255,0,1) 100%);
