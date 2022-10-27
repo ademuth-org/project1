@@ -6,4 +6,10 @@ function validateform(){
   if (firstname == "" || firstname == null){  
     alert("Please enter your first name");  
   }
+  if (lastname == "" || lastname == null){  
+    alert("Please enter your last name");  
+  }
+  if (email == "" || email == null){  
+    alert("Please enter your email");  
+  }
 }
