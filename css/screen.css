@@ -53,7 +53,12 @@ input {
 }
 
 @media screen and (min-width: 960px) {
-
+  body {
+    width: 75%;
+  }
+  label{
+    padding: 15px;
+  }
 }
 
 @media screen and (min-width: 600px) {
