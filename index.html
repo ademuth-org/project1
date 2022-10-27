@@ -17,7 +17,7 @@
   </header>
   <div id="error"></div>
   <div id="registration">
-    <form name="dig" method="get" action="#null" autocomplete=”on” onsubmit="return validateform()">
+    <form name="dig" method="get" action="#null" autocomplete=”on”>
       <label for="firstname">First Name</label>
       <input type="text" name="firstname" id="firstname" placeholder="John">
 	  <label for="lastname">Last Name</label>
@@ -27,7 +27,7 @@
       <label for="shovel">Check below if you need a shovel provided for you</label>
 	  <input type="checkbox" name="shovel" id="shovel" value="Shovel">
 	  <div id="submit">
-        <button type="submit">Sign Up Now!</button>
+        <button type="submit" onclick="validateform()">Sign Up Now!</button>
 	  </div>
     </form>
   </div>
